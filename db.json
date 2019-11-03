@@ -10,8 +10,20 @@
         "Complexidade de Algorítmos"
     ],
     "turmas": [
-        "1HC",
-        "1EC",
-        "3HI"
+        { 
+            "nome" : "1HC",
+            "semestre": "1",
+            "ano": "2019"
+        },
+        { 
+            "nome" : "1EC",
+            "semestre": "2",
+            "ano": "2019"
+        },
+        { 
+            "nome" : "3HI",
+            "semestre": "2",
+            "ano": "2018"
+        }
     ]
 }
