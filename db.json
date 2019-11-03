@@ -8,5 +8,10 @@
         "Analise e Projeto de Sistemas I",
         "Engenharia de Requisitos",
         "Complexidade de Algorítmos"
+    ],
+    "turmas": [
+        "1HC",
+        "1EC",
+        "3HI"
     ]
 }
