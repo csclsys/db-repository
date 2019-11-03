@@ -1,0 +1,12 @@
+{
+    "cursos": [
+        "Ciência da Computação",
+        "Sistema de Informação",
+        "Engenharia da Computação"
+    ],
+    "discipinas": [
+        "Analise e Projeto de Sistemas I",
+        "Engenharia de Requisitos",
+        "Complexidade de Algorítmos"
+    ]
+}
