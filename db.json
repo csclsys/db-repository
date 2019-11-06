@@ -1,29 +1,90 @@
 {
-    "cursos": [
-        "Ciência da Computação",
-        "Sistema de Informação",
-        "Engenharia da Computação"
-    ],
-    "discipinas": [
-        "Analise e Projeto de Sistemas I",
-        "Engenharia de Requisitos",
-        "Complexidade de Algorítmos"
-    ],
-    "turmas": [
-        { 
-            "nome" : "1HC",
-            "semestre": "1",
-            "ano": "2019"
-        },
-        { 
-            "nome" : "1EC",
-            "semestre": "2",
-            "ano": "2019"
-        },
-        { 
-            "nome" : "3HI",
-            "semestre": "2",
-            "ano": "2018"
-        }
-    ]
+  "cursos": [
+    {
+      "id": 1,
+      "nome": "Ciência da Computação"
+    },
+    {
+      "id": 1,
+      "nome": "Sistema de Informação"
+    },
+    {
+      "id": 1,
+      "nome": "Engenharia da Computação"
+    }
+  ],
+  "discipinas": [
+    {
+      "id": 1,
+      "nome": "Analise e Projeto de Sistemas I"
+    },
+    {
+      "id": 2,
+      "nome": "Engenharia de Requisitos"
+    },
+    {
+      "id": 3,
+      "nome": "Complexidade de Algorítmos"
+    }
+  ],
+  "turmas": [
+    {
+      "id": 1,
+      "nome": "1HC",
+      "semestre": "2",
+      "ano": "2019",
+      "professorId": 1,
+      "disciplinaId": 1
+    },
+    {
+      "id": 1,
+      "nome": "1EC",
+      "semestre": "2",
+      "ano": "2019",
+      "professorId": 1,
+      "disciplinaId": 2
+    },
+    {
+      "id": 1,
+      "nome": "3HI",
+      "semestre": "2",
+      "ano": "2018",
+      "professorId": 2,
+      "disciplinaId": 3
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Denise",
+      "sobrenome": "Franzotti Togneri",
+      "cpf": "00000000001",
+      "matricula": "19000001",
+      "papel": "professor"
+    },
+    {
+      "id": 2,
+      "nome": "Elvira",
+      "sobrenome": "Padua Lovatte",
+      "cpf": "00000000002",
+      "matricula": "19000002",
+      "papel": "professor"
+    },
+    {
+      "id": 3,
+      "nome": "Lucas",
+      "sobrenome": "Rodrigues",
+      "cpf": "00000000003",
+      "matricula": "19000003",
+      "papel": "aluno"
+    },
+    {
+      "id": 4,
+      "nome": "Marcos",
+      "sobrenome": "Oliveira",
+      "cpf": "00000000004",
+      "matricula": "19000004",
+      "papel": "monitor"
+    }
+  ]
 }
