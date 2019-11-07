@@ -30,25 +30,25 @@
   "turmas": [
     {
       "id": 1,
-      "nome": "1HC",
+      "nome": "4HC",
       "semestre": "2",
       "ano": "2019",
       "professorId": 1,
       "disciplinaId": 1
     },
     {
-      "id": 1,
-      "nome": "1EC",
+      "id": 2,
+      "nome": "2SI",
       "semestre": "2",
       "ano": "2019",
       "professorId": 1,
       "disciplinaId": 2
     },
     {
-      "id": 1,
-      "nome": "3HI",
+      "id": 3,
+      "nome": "5HC",
       "semestre": "2",
-      "ano": "2018",
+      "ano": "2019",
       "professorId": 2,
       "disciplinaId": 3
     }
@@ -84,7 +84,21 @@
       "sobrenome": "Oliveira",
       "cpf": "00000000004",
       "matricula": "19000004",
-      "papel": "monitor"
+      "papel": "aluno"
+    }
+  ],
+  "matriculaAlunos": [
+    {
+      "turmaId": 1,
+      "usuarioId": 3
+    },
+    {
+      "turmaId": 2,
+      "usuarioId": 3
+    },
+    {
+      "turmaId": 3,
+      "usuarioId": 3
     }
   ]
 }
